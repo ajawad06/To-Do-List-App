@@ -24,8 +24,14 @@ const p1task2=Project.addTaskToProject(Project1.id,"Uni Essentials","Buy new bag
 const Project2= Project.createProject("Web Development","All remaining courses on web dev...","2025-09-30","High");
 const p2task1=Project.addTaskToProject(Project2.id,"React.JS","Complete the course on reactjs.","2025-08-24","High");
 const p2task2=Project.addTaskToProject(Project2.id,"Node.JS+Express.JS","Understanding APIs and backend tech.","2025-09-08","Low");
-const p3task3=Project.addTaskToProject(Project2.id,"Database Connection","Learn sql and non sql database and their .","2025-10-01","Low");
+const p2task3=Project.addTaskToProject(Project2.id,"Database Connection","Learn sql and non sql database and their .","2025-10-01","Low");
 
+const Project3=Project.createProject("Gym","Gym schedule for next two months...");
+const p3task1=Project.addTaskToProject(Project3.id,"Chest+Triceps","Flat-Benchpress, Incline-Benchpress, Pec-Dec-Fly, Cable-Crossovers --- Tricep-Pushdown, SkullCrushers, Overhead-Extension","2025-10-01","High");
+const p3task2=Project.addTaskToProject(Project3.id,"Back+Biceps","Lat-Pulldowns, Seated-Rows, Barbell-Rows, Deadlifts --- Barbell-Curl, Hammer-Curl,Preacher-Curl, Dumbel-Curl","2025-10-01","High");
+const p3task3=Project.addTaskToProject(Project3.id,"Legs+Shoulders","Squats, Leg-Extensions, Leg-Curls, Calf-Raises, Lunges --- Lateral-Raises, Shoulder-Press, Reverse-Pec-Fly","2025-10-01","High");
+
+const Project4=Project.createProject("Random","Testing if grid layout breaks or not...");
 saveToLocalStorage(Project.getProjects());
 }
 

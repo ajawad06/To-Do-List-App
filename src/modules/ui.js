@@ -138,12 +138,12 @@ function renderProjects(){
             checkbox.type = "checkbox";
             checkbox.checked = task.completed; 
             checkbox.addEventListener("change", () => {
-                toggleTaskStatus(task);   
+                toggleTaskStatus(task);
                 if (task.completed){
-                    name.style.color="Green";
+                name.style.color="Green";
                 }else {
                     name.style.color="Red";
-                }
+                }   
                 saveToLocalStorage(Project.getProjects());
             });
             
@@ -151,8 +151,11 @@ function renderProjects(){
             name.style.fontSize="20px";
             name.style.fontWeight="700";
             name.textContent = task.title;
-            name.style.color="Red";
-            
+            if (task.completed){
+                name.style.color="Green";
+            }else {
+                name.style.color="Red";
+            }
             
             //right div contains three icons for view edit delete
             const rightDiv=document.createElement("div");
