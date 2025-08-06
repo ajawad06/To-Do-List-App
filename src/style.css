@@ -18,6 +18,9 @@ header{
     color:#ffffff;
     margin:0;
 }
+.container{
+  margin-bottom:10px;
+}
 #open-add-project-popup,#open-add-task-popup{
     display: block;
     border-radius: 10px;
