@@ -1,4 +1,4 @@
-# To-Do-List
+# 📃 To-Do-List
 
 A simple and interactive grid-based to-do list app where projects are displayed in a grid layout, each containing its own set of tasks. Tasks can be added or removed dynamically.
 
