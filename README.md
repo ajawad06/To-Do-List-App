@@ -11,4 +11,6 @@ A simple and interactive to-do list app where projects are displayed in a grid l
 - HTML
 - CSS
 - JavaScript
+- Web Storage API i.e localStorage
+  
 
